@@ -1,0 +1,21 @@
+.freshfinds {
+    display: flex;
+    flex-direction: column;
+}
+
+.listings {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.listing__thumbnail {
+    object-fit: contain;
+    height: 200px;
+    width: 200px;
+    border-radius: 4px;
+}
+
+.listing {
+    display: block
+}

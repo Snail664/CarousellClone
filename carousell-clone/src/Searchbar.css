@@ -1,0 +1,121 @@
+.searchGroupClicked {
+    margin-top: 5px;
+    margin-left: 45px;
+    margin-right: 165px;
+    display: flex;
+    background-color: white;
+    align-items: center;
+    border-radius: 4px;
+    border: teal 1px solid;
+    box-shadow: 0 0 10px turquoise;
+}
+
+.searchGroup {
+    margin-top: 5px;
+    margin-left: 45px;
+    margin-right: 165px;
+    display: flex;
+    background-color: #F0F1F1;
+    align-items: center;
+    border-radius: 4px;
+}
+
+
+.searchSelector {
+    width: 100px;
+    align-items: center;
+    padding-left: 20px;
+    display: flex;
+    flex-direction: row;
+}
+
+
+.searchInput {
+    height: 45px;
+    display: flex;
+    width: 460px;
+    background-color: transparent;
+    border: none;
+}
+
+.searchInput:focus {
+    outline: none;
+}
+
+.selector__title {
+    margin-right: 10px;
+    color: #717272;
+    font-weight: 500;
+    text-decoration: none;
+}
+
+.expandMore {
+    color: #57585A;
+}
+
+.search__icon {
+    color: #57585A;
+    background-color: #F0F1F1;
+    border: #F0F1F1 7px solid;
+    border-radius: 30px;
+    margin-right: 10px;
+    animation-name: arrow;
+    animation-duration: 4s;
+}
+
+.clickable {
+    text-decoration: none;
+}
+
+.line {
+    display: flex;
+    color: rgb(87,88,90);
+    margin-left: 16px;
+    ;
+}
+
+.dropdownMenu {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    left: 273px;
+    top: 100px;
+    color: #717272;
+    background-color:  #F0F1F1;
+    width: 99px;
+    height: 93px;
+    border-radius: 4px;
+    justify-content: space-evenly;
+    visibility: hidden;
+}
+
+.dropdown__itemTop {
+    height: 50%;
+    text-align: center;
+    padding-top: 10px;
+    color:  #717272;
+}
+
+.dropdown__itemTop:hover {
+    background-color: darkgray;
+    height: 50%;
+    text-align: center;
+    padding-top: 10px;
+    color:  #717272;
+}
+
+
+.dropdown__itemBottom {
+    height: 50%;
+    text-align: center;
+    padding-top: 10px;
+    color:  #717272;
+}
+
+.dropdown__itemBottom:hover {
+    background-color: darkgray;
+    height: 50%;
+    text-align: center;
+    padding-top: 10px;
+    color:  #717272;
+}

@@ -1,0 +1,19 @@
+.home {
+    margin-top: 15px;
+}
+
+.ad__top {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.ad__image {
+    object-fit: contain;
+    height: 90px;
+}
+
+.ad__row {
+    display: flex;
+    flex-direction: row;
+}

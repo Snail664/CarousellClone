@@ -1,0 +1,31 @@
+.adSlider {
+    display: flex;
+    height: 294px;
+    width: 728px;
+    margin-top: 40px;
+    margin-left: 40px;
+    border-radius: 6px;
+}
+
+.ad {
+    display: none;
+    object-fit: contain;
+    height: 100%;
+    border-radius: 6px;
+}
+
+.leftButton {
+    z-index: 2;
+    margin-left: -700px;
+    margin-top: 20%;
+    background-color: lightgray;
+    border-radius: 30px;
+}
+
+.rightButton {
+    z-index: 2;
+    margin-left: 640px;
+    margin-top: 20%;
+    background-color: lightgray;
+    border-radius: 30px;
+}

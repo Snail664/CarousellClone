@@ -1,0 +1,135 @@
+.header {
+    display: flex;
+    flex-direction: column;
+    z-index: 100;
+    top: 0;
+}
+
+.header__topNav {
+    display: flex;
+    height: 38px;
+    background-color: rgb(44,44,45);
+    overflow: hidden;
+    align-items: center;
+    width: 100%;
+}
+
+.logo__container {
+    display: flex;
+}
+
+.logoWhite {
+    object-fit: contain;
+    height: 26px;
+    margin-left: 60px;
+}
+
+.line {
+    display: flex;
+    color: rgb(87,88,90);
+    margin-left: 16px;
+}
+
+.categories {
+    display: flex;
+}
+
+.category__item {
+    padding:20px;
+    font-size: small;
+    color: white;
+}
+
+.category__item:hover {
+    padding:20px;
+    font-size: small;
+    color: white;
+    background-color: rgba(192,192,192, 0.1);
+    text-emphasis: none;
+
+}
+
+.link {
+    text-decoration: none;
+}
+
+.topNav__right {
+    display: flex;
+    justify-content: space-evenly;
+    margin-left: 100px;
+}
+
+.right__item {
+    color: white;
+    font-weight: 600;
+    padding: 20px;
+    font-size: small;
+}
+
+.header__bottomNav {
+    height: 65px;
+    width: 100%;
+    align-items: center;
+    display: flex;
+    border-bottom: 1px solid lightgray;
+}
+
+.logoRed {
+    object-fit: contain;
+    height: 37px;
+    margin-left: 60px;
+}
+
+
+
+.sellButton {
+    margin-left: 100px;
+    background-color: #FF2636;
+    color: white;
+    font-weight: 900;
+    border-radius: 3px;
+    height: 33px;
+    width: 70px;
+    border: 1px solid #FF2636;
+    text-decoration: none;
+
+}
+
+.dropdown__title {
+    font-weight: 500;
+    font-size: small;
+}
+
+.dropdown {
+    position: absolute;
+    z-index: 100;
+    top: 38px;
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    background-color: white;
+    padding-bottom: 10px;
+    box-shadow: 0 0px 100px -6px black;
+}
+
+.dropdown__container {
+    display: flex;
+    flex-direction: column;
+    margin-top: 5px;
+    margin-left: 50px;
+    margin-right: 50px;
+    width: 200px;
+    background-color: white;
+}
+
+.option {
+    font-size: small;
+}
+
+.dropdown__icon {
+    position: relative;
+    object-fit: contain;
+    height: 30px;
+    right:130px ;
+    top: 25px;
+}

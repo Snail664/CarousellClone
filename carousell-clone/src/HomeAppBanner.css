@@ -1,0 +1,62 @@
+.app__image {
+    object-fit: contain;
+    height: 294px;
+}
+
+.homeAppBanner {
+    display: flex;
+    margin-top: 40px;
+    margin-left: 40px;
+    border: gray 1px solid;
+    border-radius: 6px;
+    height: 320px;
+}
+
+.app__icon {
+    object-fit: contain;
+    height: 70px;
+    margin-left: -100px;
+    margin-bottom: -10px;
+}
+
+.banner__left {
+    display: flex;
+    flex-direction: column;
+    margin-right: 20px;
+    margin-left: 10px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.banner__right {
+    margin-top: 27px;
+}
+
+.banner__text {
+    font-weight: 600;
+    font-size: x-large;
+}
+
+.download__playstore {
+    height: 40px;
+    margin-left: -46px;
+    margin-bottom: 5px;
+}
+
+.download__appstore {
+    height: 40px;
+    margin-left: -46px;
+    margin-bottom: 5px;
+    margin-top: 10px;
+}
+
+.download__sms {
+    background-color: white;
+    border: black 1px solid;
+    margin-left: -4px;
+    height: 30px;
+    width: 135px;
+    font-size: small;
+    font-weight: 600;
+    border-radius: 4px;
+}
