@@ -6,7 +6,7 @@
 .homeAppBanner {
     display: flex;
     margin-top: 40px;
-    margin-left: 40px;
+    margin-left: 65px;
     border: gray 1px solid;
     border-radius: 6px;
     height: 320px;
@@ -29,7 +29,8 @@
 }
 
 .banner__right {
-    margin-top: 27px;
+    margin-top: 26px;
+    padding-right: 5px;
 }
 
 .banner__text {

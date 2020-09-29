@@ -1,16 +1,16 @@
-.adSlider {
-    display: flex;
+.slick-slider.adSlider.slick-initialized {
+    display: block;
     height: 294px;
     width: 728px;
     margin-top: 40px;
-    margin-left: 40px;
+    margin-left: 48px;
     border-radius: 6px;
 }
 
 .ad {
     display: none;
     object-fit: contain;
-    height: 100%;
+    width: 100%;
     border-radius: 6px;
 }
 
@@ -28,4 +28,30 @@
     margin-top: 20%;
     background-color: lightgray;
     border-radius: 30px;
+}
+
+.adSlider .slick-next {
+    z-index: 1;
+    background-color: black;
+    border-radius: 100px;
+    margin-right: 30px;
+    width: 40px;
+    height: 40px;
+    opacity: 0.8;
+}
+
+.adSlider .slick-prev {
+    z-index: 1;
+    background-color: black;
+    border-radius: 100px;
+    width: 40px;
+    height: 40px;
+    margin-left: 30px;
+    opacity: 0.8;
+}
+
+.adSlider .slick-arrow {
+    z-index: 2;
+    background-color: #E9E9E4;
+    color: #585957;
 }

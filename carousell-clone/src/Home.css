@@ -1,5 +1,9 @@
 .home {
     margin-top: 15px;
+    max-width: 1285px;
+    min-width: 1200px;
+    margin-right: auto;
+    margin-left: auto;
 }
 
 .ad__top {
@@ -16,4 +20,5 @@
 .ad__row {
     display: flex;
     flex-direction: row;
+    overflow-x: hidden;
 }

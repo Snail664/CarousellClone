@@ -4,7 +4,7 @@
     border-radius: 6px;
     flex-direction: column;
     margin-top: 30px;
-    margin-left: 40px;
+    margin-left: 48px;
     border: 1px solid lightgray;
     box-shadow: 0 0 7px lightgray;
 }
@@ -18,36 +18,88 @@
 
 .explore__options {
     display: flex;
-    overflow: hidden;
     width:95%;
     flex-direction: row;
     margin-top: 20px;
     margin-left: 20px;
+    margin-bottom: 30px;
 }
 
 .option__icon {
     object-fit: contain;
-    height: 80px;
-    margin-right: 50px;
-    margin-bottom: 5px;
+    height: 60px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 20px;
+    transition: margin-top 0.5s;
 }
 
-.option__icon:hover {
+.option__container:hover .option__icon {
+    margin-top: 0px;
+}
+
+.option__container:hover .option__iconContainer {
     object-fit: contain;
-    height: 80px;
-    margin-right: 30px;
-    margin-bottom: 5px;
+    height: 65px;
+    width: 65px;
+    margin-right: auto;
+    margin-left: auto;
     background-color: lightgray;
-    border:10px solid lightgray;
+    border:5px solid lightgray;
     border-radius: 60px;
+    margin-bottom: 40px;
+    opacity: 1;
 }
 
-.option__icon:focus {
-    background-color: gray;
-    border-radius: 30px;
-    border: gray 2px solid;
+.option__iconContainer {
+    object-fit: contain;
+    height: 65px;
+    width: 65px;
+    margin-right: auto;
+    margin-left: auto;
+    background-color: transparent;
+    border:5px solid transparent;
+    border-radius: 60px;
+    margin-bottom: 40px;
+    transition: background-color 0.1s;
 }
 
 .option__title {
-    max-width: 170px;
+    max-width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    font-size: small;
+}
+
+.option__container {
+    height: 160px;
+    width: 100px;
+    overflow: hidden;
+}
+
+.explore__options .slick-next {
+    z-index: 1;
+    background-color: black;
+    border-radius: 100px;
+    margin-right: -30px;
+    width: 70px;
+    height: 70px;
+    opacity: 0.8;
+}
+
+.explore__options .slick-prev {
+    z-index: 1;
+    background-color: black;
+    border-radius: 100px;
+    margin-left: -30px;
+    width: 70px;
+    height: 70px;
+    opacity: 0.8;
+}
+
+.explore__options .slick-arrow {
+    z-index: 2;
+    background-color: #E9E9E4;
+    color: #585957;
 }

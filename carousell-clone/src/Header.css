@@ -3,13 +3,26 @@
     flex-direction: column;
     z-index: 100;
     top: 0;
+    align-items: center;
+    position: sticky;
 }
 
 .header__topNav {
+    margin-left: auto;
+    margin-right: auto;
     display: flex;
     height: 38px;
     background-color: rgb(44,44,45);
     overflow: hidden;
+    align-items: center;
+    max-width: 1285px;
+    min-width: 1200px;
+}
+
+.header__topNavContainer {
+    display: flex;
+    background-color: rgb(44,44,45);
+    height: 38px;
     align-items: center;
     width: 100%;
 }
@@ -21,7 +34,6 @@
 .logoWhite {
     object-fit: contain;
     height: 26px;
-    margin-left: 60px;
 }
 
 .line {
@@ -56,7 +68,7 @@
 .topNav__right {
     display: flex;
     justify-content: space-evenly;
-    margin-left: 100px;
+    margin-left: auto;
 }
 
 .right__item {
@@ -68,22 +80,33 @@
 
 .header__bottomNav {
     height: 65px;
+    margin-left: auto;
+    margin-right: auto;
+    align-items: center;
+    display: flex;
+    max-width: 1285px;
+    min-width: 1200px;
+}
+
+.header__bottomNavContainer {
+    height: 65px;
     width: 100%;
     align-items: center;
     display: flex;
     border-bottom: 1px solid lightgray;
+    margin-bottom: 10px;
+    background-color: white;
 }
 
 .logoRed {
     object-fit: contain;
     height: 37px;
-    margin-left: 60px;
 }
 
 
 
 .sellButton {
-    margin-left: 100px;
+    margin-left: auto;
     background-color: #FF2636;
     color: white;
     font-weight: 900;
@@ -102,8 +125,11 @@
 
 .dropdown {
     position: absolute;
-    z-index: 100;
+    align-items: center;
+    padding-left: 25%;
+    padding-right: 25%;
     top: 38px;
+    z-index: 100;
     display: flex;
     flex-wrap: wrap;
     width: 100%;
