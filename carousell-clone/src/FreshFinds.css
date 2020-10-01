@@ -10,6 +10,8 @@
 }
 
 .listings {
+    margin-top: 10px;
+    margin-left: 10px;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;

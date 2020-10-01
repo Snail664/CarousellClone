@@ -21,13 +21,40 @@
     font-weight: 600;
 }
 
-.listing__profilePic {
+.header__left {
     object-fit: contain;
-    height: 20px;
-    border-radius: 15px;
+    height: 40px;
+    width: 40px;
+    border-radius: 300px;
     margin-right: 5px;
+    margin-top: 2px;
 }
 
 .listing__header {
     display: flex;
+}
+
+.listing__like {
+    display: block;
+    margin-right: 150px;
+}
+
+.listing__more {
+    display: block;
+}
+
+.listing__footer {
+    width: 100%;
+    margin-top: 30px;
+}
+
+.listing__time {
+    color: darkgray;
+    font-weight: 600;
+    font-size: small;
+}
+
+.listing:hover {
+    border: 1px solid lightgray;
+    box-shadow: 0 0 7px lightgray;
 }
