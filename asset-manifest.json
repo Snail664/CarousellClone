@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/CarousellClone/static/css/main.e5654399.chunk.css",
+    "main.js": "/CarousellClone/static/js/main.47f58d6d.chunk.js",
+    "main.js.map": "/CarousellClone/static/js/main.47f58d6d.chunk.js.map",
+    "runtime-main.js": "/CarousellClone/static/js/runtime-main.79f15dca.js",
+    "runtime-main.js.map": "/CarousellClone/static/js/runtime-main.79f15dca.js.map",
+    "static/css/2.3ccac6ac.chunk.css": "/CarousellClone/static/css/2.3ccac6ac.chunk.css",
+    "static/js/2.31a8bc6b.chunk.js": "/CarousellClone/static/js/2.31a8bc6b.chunk.js",
+    "static/js/2.31a8bc6b.chunk.js.map": "/CarousellClone/static/js/2.31a8bc6b.chunk.js.map",
+    "index.html": "/CarousellClone/index.html",
+    "precache-manifest.2eb641d160070d549a34458044cefced.js": "/CarousellClone/precache-manifest.2eb641d160070d549a34458044cefced.js",
+    "service-worker.js": "/CarousellClone/service-worker.js",
+    "static/css/2.3ccac6ac.chunk.css.map": "/CarousellClone/static/css/2.3ccac6ac.chunk.css.map",
+    "static/css/main.e5654399.chunk.css.map": "/CarousellClone/static/css/main.e5654399.chunk.css.map",
+    "static/js/2.31a8bc6b.chunk.js.LICENSE.txt": "/CarousellClone/static/js/2.31a8bc6b.chunk.js.LICENSE.txt",
+    "static/media/slick-theme.scss": "/CarousellClone/static/media/slick.f97e3bbf.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.79f15dca.js",
+    "static/css/2.3ccac6ac.chunk.css",
+    "static/js/2.31a8bc6b.chunk.js",
+    "static/css/main.e5654399.chunk.css",
+    "static/js/main.47f58d6d.chunk.js"
+  ]
+}
