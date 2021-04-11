@@ -1,60 +1,60 @@
 .listing__thumbnail {
-    object-fit: contain;
-    height: 200px;
-    width: 200px;
-    border-radius: 4px;
-    background-color: black;
+  object-fit: contain;
+  height: 200px;
+  width: 200px;
+  border-radius: 4px;
+  background-color: black;
 }
 
 .listing {
-    display: block;
-    margin-left: 5px;
-    margin-right: 5px;
+  display: block;
+  margin-left: 5px;
+  margin-right: 5px;
+  padding: 10px;
 }
 
 .listing__username {
-    margin-left: 0;
-    font-weight: 600;
+  margin-left: 0;
+  font-weight: 600;
 }
 
 .listing__title {
-    font-weight: 600;
+  font-weight: 600;
 }
 
 .header__left {
-    object-fit: contain;
-    height: 40px;
-    width: 40px;
-    border-radius: 300px;
-    margin-right: 5px;
-    margin-top: 2px;
+  object-fit: contain;
+  height: 40px;
+  width: 40px;
+  border-radius: 300px;
+  margin-right: 5px;
+  margin-top: 2px;
 }
 
 .listing__header {
-    display: flex;
+  display: flex;
 }
 
 .listing__like {
-    display: block;
-    margin-right: 150px;
+  display: block;
+  margin-right: 150px;
 }
 
 .listing__more {
-    display: block;
+  display: block;
 }
 
 .listing__footer {
-    width: 100%;
-    margin-top: 30px;
+  width: 100%;
+  margin-top: 30px;
 }
 
 .listing__time {
-    color: darkgray;
-    font-weight: 600;
-    font-size: small;
+  color: darkgray;
+  font-weight: 600;
+  font-size: small;
 }
 
 .listing:hover {
-    border: 1px solid lightgray;
-    box-shadow: 0 0 7px lightgray;
+  box-shadow: 0 0 7px lightgray;
 }
