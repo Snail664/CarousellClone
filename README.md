@@ -1,3 +1,11 @@
+## View Deployed App
+
+Visit http://chiraaganand.com/CarousellClone/
+
+## About
+
+Front end clone of carousell home page.
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
