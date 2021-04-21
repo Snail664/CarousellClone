@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "e64f1396ca8da5b990ccb10539171179",
+    "revision": "924fd4dbe5476e92237ba143f524c52c",
     "url": "/CarousellClone/index.html"
   },
   {
